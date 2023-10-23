@@ -80,7 +80,7 @@ sudo apt install -y docker.io
 To do this, run the following command:
 
 ```
-git clone git@github.com:Wassim-Ammar/Human-Resources-Management.git
+git clone git@github.com:Wassim-Ammar/Subscription-Platform.git
 ```
 
 ## Create volume file for mysql container
