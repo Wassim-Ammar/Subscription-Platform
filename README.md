@@ -2,6 +2,10 @@
 
 This documentation outlines the available API endpoints for the Subscription Platform, designed for user subscriptions and post notifications.
 
+# Authentication with Laravel Sanctum for APIs
+
+Laravel Sanctum is a powerful and user-friendly package that simplifies API authentication in Laravel applications. It's particularly useful for securing API endpoints and enabling user authentication in a stateless manner.
+
 ## User Authentication
 
 - **Login**: Authenticate a user and obtain an access token.
@@ -26,10 +30,6 @@ This documentation outlines the available API endpoints for the Subscription Pla
 - **Subscribe to a Website**: Allow a user to subscribe to a specific website.
   - Endpoint: `POST /subscribe/{website}`
   - URL Parameter: `website` (The website to subscribe to)
-
-For detailed information on request payloads, authentication, and available responses, please refer to the API's official documentation or codebase.
-
-This API empowers users to subscribe to their favorite websites, create posts, and receive email notifications whenever new content is published. It follows RESTful principles, providing a straightforward and secure user experience.
 
 # Requirements and Docker Installation
 

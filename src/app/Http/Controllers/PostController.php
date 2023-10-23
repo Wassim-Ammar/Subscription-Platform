@@ -16,8 +16,6 @@ class PostController extends Controller
 {
     public  function create(PostRequest $request): JsonResponse
     {
-        $schedule = new Schedule();
-
         $pipeline = app(Pipeline::class);
 
         $pipeline->send($request)->through([
