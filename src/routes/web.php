@@ -19,6 +19,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/api/user/me', function () {
-    return request()->user();
-})->middleware('auth:api');
+// Route::get('/api/user/me', function () {
+//     return request()->user();
+// })->middleware('auth:api');
