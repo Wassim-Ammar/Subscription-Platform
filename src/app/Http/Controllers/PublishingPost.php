@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Mail;
 
 class PublishingPost extends Controller
 {
-    public static function store($id): JsonResponse
+    public static function store(int $id): JsonResponse
     {
 
 
